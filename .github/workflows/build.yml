@@ -57,7 +57,9 @@ jobs:
             infra/yarn.lock
 
     - name: Build
-      run: cd infra && yarn install && yarn build
+      working-directory: infra
+      run: yarn install && yarn build
 
     - name: Build
-      run: cd app && yarn install && yarn lint && yarn build
+      working-directory: app
+      run: yarn install && yarn lint && yarn build
