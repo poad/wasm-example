@@ -51,10 +51,6 @@ jobs:
       with:
         node-version: 16.x
         check-latest: false
-        cache: 'yarn'
-        cache-dependency-path:  |
-            app/yarn.lock
-            infra/yarn.lock
 
     - name: Build
       working-directory: infra
