@@ -22,7 +22,10 @@
     "@types/react": "*",
     "eslint": "*",
     "eslint-config-next": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
     "next-compose-plugins": "*",
+    "prettier": "*",
     "swc-loader": "*",
     "typescript": "*"
   }
