@@ -753,9 +753,9 @@ at-least-node@^1.0.0:
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
 aws-cdk-lib@*:
-  version "2.31.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.31.1.tgz#97b8a21f14b44875d9424e00758b79c7ec2f765f"
-  integrity sha512-1IFgMxr1PpX90KFzTRZKVwfY+qP/UzLsrNgfylvqveOKy3R6qtGAhAx186+Zy2nx+wYoy+hVz89CZSItGDapMA==
+  version "2.32.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.32.0.tgz#495abc4c67b518c6ca4c83f1f05fe39f18216ed7"
+  integrity sha512-IItrnjoLWupP3c16m06hN+13h1trGQ+VMqEn/7aPpBd6rRHcPAdR1f/jr/XxkbNxW+AEfrobAniJwMxWBzbh+g==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -768,9 +768,9 @@ aws-cdk-lib@*:
     yaml "1.10.2"
 
 aws-cdk@*:
-  version "2.31.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.31.1.tgz#8ab6d6fb9405baa6c8f6e9f009a66d4cf692a43e"
-  integrity sha512-iET6uQkkllhidC7EsmC8+q8iHGe8o/JCZiEWAdsU4WvZRFuh0ckktQphYf9l/gKgO9x4hthvcEWbMlnjrmzXsw==
+  version "2.32.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.32.0.tgz#be1a714d61e8d347799365fc396977e6e5e30bbc"
+  integrity sha512-+kXT92TI5dTZA65URHPgX6iqY+msS+srs89XkTzGhPT83GXNU1Tkr0rhVCbGHejT7x0UmwITukY+wBhueNaMUg==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -989,9 +989,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.1.45"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.45.tgz#89b19e3d7523824a6e8bed547122aa90e5442169"
-  integrity sha512-AmMJHYqvDKUYXEPcqRHAtsI0szgJFiznTB465QB4Tqa35bGj1YvfY+wcYF1MMCQL7pSB/q0W8k1wjnNr8EqOhA==
+  version "10.1.46"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.46.tgz#8a9a75b7f552a90348016fb4383dd0220ec4be8d"
+  integrity sha512-Ngkl01YWwzorrvc6dsAJuPMgLXmYYACBBlj6pwDb24P29jlNzNO1JHI3To2Qs1WXdRhbGlFkLIc88XOube2sfw==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -1047,9 +1047,9 @@ diff@^4.0.1:
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
 electron-to-chromium@^1.4.188:
-  version "1.4.189"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.189.tgz#4e5b221dc44e09e9dddc9abbc6457857dee7ba25"
-  integrity sha512-dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==
+  version "1.4.191"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.191.tgz#01dd4bf32502a48ce24bf3890b5553a1c5f93539"
+  integrity sha512-MeEaiuoSFh4G+rrN+Ilm1KJr8pTTZloeLurcZ+PRcthvdK1gWThje+E6baL7/7LoNctrzCncavAG/j/vpES9jg==
 
 emittery@^0.10.2:
   version "0.10.2"
@@ -2203,9 +2203,9 @@ to-regex-range@^5.0.1:
     is-number "^7.0.0"
 
 ts-jest@*:
-  version "28.0.5"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-28.0.5.tgz#31776f768fba6dfc8c061d488840ed0c8eeac8b9"
-  integrity sha512-Sx9FyP9pCY7pUzQpy4FgRZf2bhHY3za576HMKJFs+OnQ9jS96Du5vNsDKkyedQkik+sEabbKAnCliv9BEsHZgQ==
+  version "28.0.6"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-28.0.6.tgz#d63df9a9908044cd891e066ad869b1a432e70d67"
+  integrity sha512-yLAWoaSJ6c9o+IT7+nyutp5uvwGzhMYb/LD5WEQAi2tBq4ZSAPay4Lf69pP/IU+GFYg87pdg5eADSzuNAFSK4g==
   dependencies:
     bs-logger "0.x"
     fast-json-stable-stringify "2.x"
@@ -2217,9 +2217,9 @@ ts-jest@*:
     yargs-parser "^21.0.1"
 
 ts-node@*:
-  version "10.9.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.0.tgz#d719c3e66e821fb9ad5e1c006542974c29145ca8"
-  integrity sha512-bunW18GUyaCSYRev4DPf4SQpom3pWH29wKl0sDk5zE7ze19RImEVhCW7K4v3hHKkUyfWotU08ToE2RS+Y49aug==
+  version "10.9.1"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz#e73de9102958af9e1f0b168a6ff320e25adcff4b"
+  integrity sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==
   dependencies:
     "@cspotcode/source-map-support" "^0.8.0"
     "@tsconfig/node10" "^1.0.7"
