@@ -1,20 +1,14 @@
 /** @type {import('next').NextConfig} */
 const withPlugins = require('next-compose-plugins');
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-});
+const withBundleAnalyzer = require('@next/bundle-analyzer');
 
-module.exports = withPlugins([
-  [withBundleAnalyzer],
-],
-  {
-    webpack5: true,
+module.exports = withBundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+})({
     reactStrictMode: true,
-    esmExternals: true,
-    swcLoader: true,
     swcMinify: true,
     experimental: {
-      asyncWebAssembly: true,
+      esmExternals: true,
     },
     webpack: (config, { isServer }) => {
       config.experiments = {
