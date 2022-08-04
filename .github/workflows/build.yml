@@ -52,10 +52,10 @@ jobs:
         node-version: 16.x
         check-latest: false
 
-    - name: Build
+    - name: Build (infra)
       working-directory: infra
       run: yarn install && yarn build
 
-    - name: Build
+    - name: Build (app)
       working-directory: app
       run: yarn install && yarn lint && yarn build

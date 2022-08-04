@@ -24,6 +24,10 @@
     "constructs": "*",
     "source-map-support": "*"
   },
+  "resolutions": {
+    "@types/yargs-parser": "^13",
+    "yargs-parser": "^13"
+  },
   "jest": {
     "testEnvironment": "node",
     "roots": [
