@@ -1527,15 +1527,15 @@ jest-docblock@^29.0.0:
     detect-newline "^3.0.0"
 
 jest-each@^29.0.3:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/jest-each/-/jest-each-29.0.3.tgz#7ef3157580b15a609d7ef663dd4fc9b07f4e1299"
-  integrity sha512-wILhZfESURHHBNvPMJ0lZlYZrvOQJxAo3wNHi+ycr90V7M+uGR9Gh4+4a/BmaZF0XTyZsk4OiYEf3GJN7Ltqzg==
+  version "29.1.0"
+  resolved "https://registry.yarnpkg.com/jest-each/-/jest-each-29.1.0.tgz#d0962d04f4a28f5f048c2ff50965cab9ae2f524d"
+  integrity sha512-ELSZV/L4yjqKU2O0bnDTNHlizD4IRS9DX94iAB6QpiPIJsR453dJW7Ka7TXSmxQdc66HNNOhUcQ5utIeVCKGyA==
   dependencies:
-    "@jest/types" "^29.0.3"
+    "@jest/types" "^29.1.0"
     chalk "^4.0.0"
     jest-get-type "^29.0.0"
-    jest-util "^29.0.3"
-    pretty-format "^29.0.3"
+    jest-util "^29.1.0"
+    pretty-format "^29.1.0"
 
 jest-environment-node@^29.0.3:
   version "29.0.3"
@@ -2065,16 +2065,7 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-pretty-format@^29.0.0, pretty-format@^29.0.3:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.0.3.tgz#23d5f8cabc9cbf209a77d49409d093d61166a811"
-  integrity sha512-cHudsvQr1K5vNVLbvYF/nv3Qy/F/BcEKxGuIeMiVMRHxPOO1RxXooP8g/ZrwAp7Dx+KdMZoOc7NxLHhMrP2f9Q==
-  dependencies:
-    "@jest/schemas" "^29.0.0"
-    ansi-styles "^5.0.0"
-    react-is "^18.0.0"
-
-pretty-format@^29.1.0:
+pretty-format@^29.0.0, pretty-format@^29.0.3, pretty-format@^29.1.0:
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.1.0.tgz#ea3de2feed5b8d19c537a12fe478ddc8b45da6b8"
   integrity sha512-dZ21z0UjKVSiEkrPAt2nJnGfrtYMFBlNW4wTkJsIp9oB5A8SUQ8DuJ9EUgAvYyNfMeoGmKiDnpJvM489jkzdSQ==
