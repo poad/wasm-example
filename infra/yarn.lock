@@ -665,9 +665,9 @@
     "@types/istanbul-lib-report" "*"
 
 "@types/jest@*":
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.0.3.tgz#b61a5ed100850686b8d3c5e28e3a1926b2001b59"
-  integrity sha512-F6ukyCTwbfsEX5F2YmVYmM5TcTHy1q9P5rWlRbrk56KyMh3v9xRGUO3aa8+SkvMi0SHXtASJv1283enXimC0Og==
+  version "29.1.0"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.1.0.tgz#9cfbe1b0d4408f9732aaf37447460f10f2c71ce6"
+  integrity sha512-CqlKkMNaUhFSRvqVKniNhbcy9fc/Rj2cmFD5t8Jtu4HlHzSit27h7XKfP5kkxBeROQ8WAvQQmy93FIz9or8jKg==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
@@ -1002,9 +1002,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.1.115"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.115.tgz#2399afb4cdf280eda7ffd69f913c7e4344129435"
-  integrity sha512-pX3LI9Tf9ltsf0Qm7RCTdht0seLi4mLwjLuQ0znvzk2S88dWIKZdhzjI2zraN2kjY1a3fByYWg4aK8/St3sS+Q==
+  version "10.1.116"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.116.tgz#ad00b81b7fe856ee7da8db6154ced20cfc64ae07"
+  integrity sha512-FFdxdNZo5zP82WX9/aDSd5KerHpTBVTnFd/U5qTiQB4YMpAm7UsYIuf2h0fovRRjHFC6dHX/oCGgF9+WT2RCtg==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -1065,9 +1065,9 @@ diff@^4.0.1:
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
 electron-to-chromium@^1.4.251:
-  version "1.4.267"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.267.tgz#77d7de2b92806e3e1df8882a982aece815d6b6ea"
-  integrity sha512-ik4QnU3vFRsVgwt0vsn7og28++2cGnsdgqYagaE3ur1f3wj5AzmWu+1k3//SOc6CwkP2xfu46PNfVP6X+SRepg==
+  version "1.4.268"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.268.tgz#5a902075f0209a628837e508a66d40ace04d54ab"
+  integrity sha512-PO90Bv++vEzdln+eA9qLg1IRnh0rKETus6QkTzcFm5P3Wg3EQBZud5dcnzkpYXuIKWBjKe5CO8zjz02cicvn1g==
 
 emittery@^0.10.2:
   version "0.10.2"
