@@ -381,14 +381,7 @@
     "@types/node" "*"
     jest-mock "^29.2.1"
 
-"@jest/expect-utils@^29.2.0":
-  version "29.2.0"
-  resolved "https://registry.yarnpkg.com/@jest/expect-utils/-/expect-utils-29.2.0.tgz#3c0c472115d98211e7e0a0a8fa00719bf081987f"
-  integrity sha512-nz2IDF7nb1qmj9hx8Ja3MFab2q9Ml8QbOaaeJNyX5JQJHU8QUvEDiMctmhGEkk3Kzr8w8vAqz4hPk/ogJSrUhg==
-  dependencies:
-    jest-get-type "^29.2.0"
-
-"@jest/expect-utils@^29.2.1":
+"@jest/expect-utils@^29.2.0", "@jest/expect-utils@^29.2.1":
   version "29.2.1"
   resolved "https://registry.yarnpkg.com/@jest/expect-utils/-/expect-utils-29.2.1.tgz#eae61c90f2066540f60d23b8f254f03b7869b22f"
   integrity sha512-yr4aHNg5Z1CjKby5ozm7sKjgBlCOorlAoFcvrOQ/4rbZRfgZQdnmh7cth192PYIgiPZo2bBXvqdOApnAMWFJZg==
@@ -1138,18 +1131,7 @@ exit@^0.1.2:
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
   integrity sha512-Zk/eNKV2zbjpKzrsQ+n1G6poVbErQxJ0LBOJXaKZ1EViLzH+hrLu9cdXI4zw9dBQJslwBEpbQ2P1oS7nDxs6jQ==
 
-expect@^29.0.0, expect@^29.2.0:
-  version "29.2.0"
-  resolved "https://registry.yarnpkg.com/expect/-/expect-29.2.0.tgz#b90c6df52be7abfd9f206f273fbcf8b33d8f332d"
-  integrity sha512-03ClF3GWwUqd9Grgkr9ZSdaCJGMRA69PQ8jT7o+Bx100VlGiAFf9/8oIm9Qve7ZVJhuJxFftqFhviZJRxxNfvg==
-  dependencies:
-    "@jest/expect-utils" "^29.2.0"
-    jest-get-type "^29.2.0"
-    jest-matcher-utils "^29.2.0"
-    jest-message-util "^29.2.0"
-    jest-util "^29.2.0"
-
-expect@^29.2.1:
+expect@^29.0.0, expect@^29.2.0, expect@^29.2.1:
   version "29.2.1"
   resolved "https://registry.yarnpkg.com/expect/-/expect-29.2.1.tgz#25752d0df92d3daa5188dc8804de1f30759658cf"
   integrity sha512-BJtA754Fba0YWRWHgjKUMTA3ltWarKgITXHQnbZ2mTxTXC4yMQlR0FI7HkB3fJYkhWBf4qjNiqvg3LDtXCcVRQ==
@@ -1552,17 +1534,7 @@ jest-leak-detector@^29.2.1:
     jest-get-type "^29.2.0"
     pretty-format "^29.2.1"
 
-jest-matcher-utils@^29.2.0:
-  version "29.2.0"
-  resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-29.2.0.tgz#d1d73add0e0efb0e316a50f296977505dc053e02"
-  integrity sha512-FcEfKZ4vm28yCdBsvC69EkrEhcfex+IYlRctNJXsRG9+WC3WxgBNORnECIgqUtj7o/h1d8o7xB/dFUiLi4bqtw==
-  dependencies:
-    chalk "^4.0.0"
-    jest-diff "^29.2.0"
-    jest-get-type "^29.2.0"
-    pretty-format "^29.2.0"
-
-jest-matcher-utils@^29.2.1:
+jest-matcher-utils@^29.2.0, jest-matcher-utils@^29.2.1:
   version "29.2.1"
   resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-29.2.1.tgz#2bf876c5f891b33786aadf5d65d5da5970744122"
   integrity sha512-hUTBh7H/Mnb6GTpihbLh8uF5rjAMdekfW/oZNXUMAXi7bbmym2HiRpzgqf/zzkjgejMrVAkPdVSQj+32enlUww==
