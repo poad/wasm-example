@@ -566,9 +566,9 @@
     "@jridgewell/sourcemap-codec" "1.4.14"
 
 "@sinclair/typebox@^0.24.1":
-  version "0.24.47"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.47.tgz#530b67163714356f93e82bdb871e7db4b7bc564e"
-  integrity sha512-J4Xw0xYK4h7eC34MNOPQi6IkNxGRck6n4VJpWDzXIFVTW8I/D43Gf+NfWz/v/7NHlzWOPd3+T4PJ4OqklQ2u7A==
+  version "0.24.50"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.50.tgz#35ee4db4ab8f3a8ff56490c51f92445d2776451e"
+  integrity sha512-k8ETQOOQDg5FtK7y9KJWpsGLik+QlPmIi8zzl/dGUgshV2QitprkFlCR/AemjWOTyKn9UwSSGRTzLVotvgCjYQ==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
@@ -672,9 +672,9 @@
     pretty-format "^29.0.0"
 
 "@types/node@*":
-  version "18.11.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.3.tgz#78a6d7ec962b596fc2d2ec102c4dd3ef073fea6a"
-  integrity sha512-fNjDQzzOsZeKZu5NATgXUPsaFaTxeRgFXoosrHivTl8RGeV733OLawXsGfEk9a8/tySyZUyiZ6E8LcjPFZ2y1A==
+  version "18.11.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.4.tgz#7017a52e18dfaad32f55eebd539993014441949c"
+  integrity sha512-BxcJpBu8D3kv/GZkx/gSMz6VnTJREBj/4lbzYOQueUOELkt8WrO6zAcSPmp9uRPEW/d+lUO8QK0W2xnS1hEU0A==
 
 "@types/prettier@^2.1.5":
   version "2.7.1"
@@ -1001,9 +1001,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.1.134"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.134.tgz#4cd24425444684a11c4f3f698da2ae4858b3e450"
-  integrity sha512-2DXeZEgHZa+d0+ekRN+vvKSDLSZ0Y7DskaZZ09L99ny3A7YDJ5JUlgRE2Ee24qM9PJcuReGyBvQH+++v6nLgvQ==
+  version "10.1.137"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.137.tgz#821e3e02df43f98b8ba9f709f96eaa29c456ebef"
+  integrity sha512-jRuNdceHnCB1JRybA1QQL8ZPI704I6jvQmNgyhen3dvQPYfBkhbyNGVabnLPd5IDnnW4Q5y8XkYugLX2hwnLmg==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.9.0"
