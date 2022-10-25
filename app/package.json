@@ -12,16 +12,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^12",
+    "next": "^13",
     "react": "*",
     "react-dom": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^12",
+    "@next/bundle-analyzer": "^13",
     "@types/node": "*",
     "@types/react": "*",
     "eslint": "*",
-    "eslint-config-next": "^12",
+    "eslint-config-next": "^13",
     "eslint-config-prettier": "*",
     "eslint-plugin-prettier": "*",
     "next-compose-plugins": "*",
