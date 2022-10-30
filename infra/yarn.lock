@@ -672,9 +672,9 @@
     pretty-format "^29.0.0"
 
 "@types/node@*":
-  version "18.11.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.7.tgz#8ccef136f240770c1379d50100796a6952f01f94"
-  integrity sha512-LhFTglglr63mNXUSRYD8A+ZAIu5sFqNJ4Y2fPuY7UlrySJH87rRRlhtVmMHplmfk5WkoJGmDjE9oiTfyX94CpQ==
+  version "18.11.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.8.tgz#16d222a58d4363a2a359656dd20b28414de5d265"
+  integrity sha512-uGwPWlE0Hj972KkHtCDVwZ8O39GmyjfMane1Z3GUBGGnkZ2USDq7SxLpVIiIHpweY9DS0QTDH0Nw7RNBsAAZ5A==
 
 "@types/prettier@^2.1.5":
   version "2.7.1"
@@ -765,9 +765,9 @@ at-least-node@^1.0.0:
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
 aws-cdk-lib@*:
-  version "2.48.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.48.0.tgz#c70bfabb00462ecaf410977f9f17425f89e56dcd"
-  integrity sha512-aVvKdFzCljXlTi4zPj13hbLnb4SIkvNNu9gbgI0JzVnIgQ/dn+FRSv2fnqAteVgvw37CAHYx3ZomFvPWGKUR2Q==
+  version "2.49.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.49.0.tgz#0cd8bd51191219c7f1581c5d61f138942eb33785"
+  integrity sha512-HMrV41VaYVLFhm5i35bXuxiiib8IXPwuspDF7W3LJ4WVwxQZWx4eGcvRAdaXuNM7dDwM52cF5BNl8lYa/xCt5Q==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -780,9 +780,9 @@ aws-cdk-lib@*:
     yaml "1.10.2"
 
 aws-cdk@*:
-  version "2.48.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.48.0.tgz#56219b91966996a03b00bf71b7cbbd8ed14b1884"
-  integrity sha512-7X94dgrHCnnLGwKltj5bOUn7FCmEcP2jNiTvosMFXYBZ7GqHVedvQ1LjnMzQO3DpnjTXvYgyzEAtVOMoXPWQLw==
+  version "2.49.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.49.0.tgz#db82caa0f1c6f05e4ebb41ee48a8102fcfb2dc85"
+  integrity sha512-C+/B8mO85wlKv+/pDtm1OlObIRVaj/XSpWOR31Q6TgxVxJeLnH2K4B/aik+l7yZK45arpUpK2Ka0fvSfTDJvqQ==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -911,9 +911,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001400:
-  version "1.0.30001426"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001426.tgz#58da20446ccd0cb1dfebd11d2350c907ee7c2eaa"
-  integrity sha512-n7cosrHLl8AWt0wwZw/PJZgUg3lV0gk9LMI7ikGJwhyhgsd2Nb65vKvmSexCqq/J7rbH3mFG6yZZiPR5dLPW5A==
+  version "1.0.30001427"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001427.tgz#d3a749f74be7ae0671fbec3a4eea18576e8ad646"
+  integrity sha512-lfXQ73oB9c8DP5Suxaszm+Ta2sr/4tf8+381GkIm1MLj/YdLf+rEDyDSRCzeltuyTVGm+/s18gdZ0q+Wmp8VsQ==
 
 case@1.6.3:
   version "1.6.3"
@@ -1001,9 +1001,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.1.141"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.141.tgz#76f99f6482ea72b118ec41d753fa8a0ed632d9a2"
-  integrity sha512-1bDxJVEqR/6Hz2TRV9yDnh0/noPb/8fg8lwJdKDUbA2Jo52vS/FEumyQUpvOLDdkPSUn/aCq00utzaLv0qMURA==
+  version "10.1.144"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.144.tgz#8f83a8a4e5629c9d00eb7930a64f542435200f02"
+  integrity sha512-mFHa7o+uG3Lag1oIjeh2N75ce8BDX5LYCOE67rm+P/b0dYiPS0iQz5PQgcWFdVFjTNJ3o4vvzw0rlui4j6i0+g==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.9.0"
