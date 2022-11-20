@@ -43,6 +43,22 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 
+
+cd "${CURRENT}"/infra/function
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+echo ""
+pwd
+yarn install && yarn upgrade
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+
 cd "${CURRENT}"
 result=$?
 if [ $result -ne 0 ]; then
