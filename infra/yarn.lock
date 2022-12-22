@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.30":
-  version "2.2.35"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.35.tgz#12bc51043aefdf74aa58f956003e803c34dd5f9b"
-  integrity sha512-7SbdUuBQ9OcuLJZ8kCkXT2uUplixy0aufvitn/fMi4UM1OoXDM0jPN8GeFU1/NKaZDtGzimAmNYzUorKz6Lgtg==
+  version "2.2.37"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.37.tgz#10253cfc75770f44603e266dc8a87ace70175396"
+  integrity sha512-1jLfQLpFEurbcBuwBLgw7u7OxRYQZTTl9L8/6Bx44fQksJch+9dyvbVnbhigAfc9K9z2e0QAsepZybE6lAGCDQ==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -480,9 +480,9 @@ confusing-browser-globals@^1.0.10:
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
 constructs@*:
-  version "10.1.196"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.196.tgz#dbc5cda70ff36f1be259595dac3343f5094cff1b"
-  integrity sha512-vgVM3vTWu8ZdHEa/icSzmZZOU5berKI+g8eosPKu+KOoAtS6o/eXqYObXejh79vy+rHyKK7yulUtSGCXU4ynUQ==
+  version "10.1.197"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.197.tgz#12156f95f94556bd2e5e6509d7ce2a87b9647103"
+  integrity sha512-YAuSMYDXPQvNqmCrnVBGHXGL1+8WICDDJLH91BUIWfL6PpMEm+LXBXchgGETyREf96nIIGuXC/0lkUURsLSrHA==
 
 create-require@^1.1.0:
   version "1.1.1"
