@@ -28,6 +28,15 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 
+cd "${CURRENT}"
+git pull --prune
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+
+
 cd "${CURRENT}"/infra
 result=$?
 if [ $result -ne 0 ]; then
