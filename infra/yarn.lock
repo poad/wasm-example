@@ -495,9 +495,9 @@ confusing-browser-globals@^1.0.10:
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
 constructs@*:
-  version "10.1.224"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.224.tgz#03fb7a6046d5fa8271eba333455763444f1a2862"
-  integrity sha512-ZP4hWdeCTck7c5NpmIJ074WB0QTcv/iWp6Jd67Y7ZGmy399vXT0DZk4I41B0h95mQGxSMJRhBdn0olQSVVHQRA==
+  version "10.1.227"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.227.tgz#0d7ae43ec48b57bc3a672caf9f999f908909ad95"
+  integrity sha512-pkLVeo+64NKWFStb1FAEs7FMUdrDh+PySxa7NfT4Ol/gI732cmD8lQTtOW0gLSN4+OIMGHVg3+bTKA3i/4TtPw==
 
 create-require@^1.1.0:
   version "1.1.1"
