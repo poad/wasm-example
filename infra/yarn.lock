@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.97":
-  version "2.2.118"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.118.tgz#041cd7abf72e767839f9ac8637bc2bfb85605691"
-  integrity sha512-vxEs6sclGwVFvy06p0BJaLOBTNlx30TGTT0pXml4rIJQ5Sjt1ip/YggiErIm+e1+9VN8IfZbGnNaMFMFPhKglw==
+  version "2.2.119"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.119.tgz#49a30eb75666350bfd3b01df566666536e249eca"
+  integrity sha512-i/oI0nOLLqrr3JJtV9zOWxaY+6V0Is2fGLpy4fSgukeAuAPDu1vSc1cP+VWT8pcWZT1NvsRPwJeZhZCZAyM0Vg==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.96"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.96.tgz#68d5ad170f7f5cc1ad7668491ec70970c944c502"
-  integrity sha512-hnw+foV2A+ohY+IATYfGuXg0EhY7KBE5kuseek0dBurqGrWmKT2FzVdkcQAsYmAx2ZKYuQ80eTTPKpV12Hg9vA==
+  version "2.0.97"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.97.tgz#72fdcef944ff90b1e0610e59a5a08c0feecc1f79"
+  integrity sha512-udU6ilEIR5+ys+PYl8IJEeTzzABEK67OW27f0hanD58RTJzx3sa28faPJUhwAjSOdgZMN4c4AaHZF2u28kHo/g==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -521,9 +521,9 @@ confusing-browser-globals@^1.0.10:
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
 constructs@*:
-  version "10.1.291"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.291.tgz#4dfe5df042d832657f930ba5b9f6d1cbd69c9094"
-  integrity sha512-KDnboscgMvYGjQzCvzdYxSSB28SgMAHssDEeU6g/KqEXnC1NoZOx24GKCemdcV7zq7l3Vek6Yq9t/K6mod9JkA==
+  version "10.1.292"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.292.tgz#29c1673fa6d671c1a5e454e86ed536cad41be937"
+  integrity sha512-6so2QmwcN0Ndw7Er7+8wxT1qETF3HtP7Gqc3q+5B4OS1W5/Z6tiJO1c1kpXOsnBfD8cEzs6FVVcd7Udhv5qNyA==
 
 create-require@^1.1.0:
   version "1.1.1"
