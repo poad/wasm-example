@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.112"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.112.tgz#d3345d938fb9bc6b401e7e84e47ddbfa79bd5184"
-  integrity sha512-lByrQT3StWfPL7FFj1nnwoQIapafgJ6/vzMDLoBtvJGP859SRVDcCtp4dEn3Lk4AgIFcacKI37krFogNCtqUrg==
+  version "2.0.114"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.114.tgz#97ed82f88f89475f322b1c2745cd41027ada19f6"
+  integrity sha512-xXSptpTYIlxQyTpVud2N6/vzHaAsUSWtDrPxdEZoIJESuZJZKLP69PhELwG/NsD6WtxpWYa6LO6s2qvJhRUjew==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
