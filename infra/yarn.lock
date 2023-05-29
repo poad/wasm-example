@@ -223,9 +223,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*":
-  version "20.2.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.2.4.tgz#e6c3345f7ed9c6df41fdc288a94e2633167bc15d"
-  integrity sha512-ni5f8Xlf4PwnT/Z3f0HURc3ZSw8UyrqMqmM3L5ysa7VjHu8c3FOmIo1nKCcLrV/OAmtf3N4kFna/aJqxsfEtnA==
+  version "20.2.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.2.5.tgz#26d295f3570323b2837d322180dfbf1ba156fefb"
+  integrity sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==
 
 "@types/prettier@*":
   version "2.7.2"
@@ -532,9 +532,9 @@ confusing-browser-globals@^1.0.10:
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
 constructs@*:
-  version "10.2.33"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.33.tgz#9b71248a466ed8ac69639e925d64014f89a29438"
-  integrity sha512-04mE3FHizhk/cjBkByEaT0dQKrvAA3o/pJAdJTKkMlpo1vk+8P8P0iXWvqiPdaz714EO9Opha1Fk5XnJi8tqiQ==
+  version "10.2.36"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.36.tgz#7c4315c73a2005353bcd3904159681b610dc1c7f"
+  integrity sha512-7zFxt2ngpm76eqNqvnD5X1RC7/nlZ7NhpRHNJIzNj1MNZH3NSGe6iwHgIZSoK4pjdZktnZELdBZsVo/yqAvv2Q==
 
 create-require@^1.1.0:
   version "1.1.1"
