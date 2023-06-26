@@ -3,33 +3,30 @@
   "private": true,
   "scripts": {
     "preinstall": "cargo install wasm-pack",
-    "dev": "yarn wasm && next dev",
-    "build": "yarn wasm && next build",
-    "start": "yarn wasm && next start",
+    "dev": "pnpm wasm && next dev",
+    "build": "pnpm wasm && next build",
+    "start": "pnpm wasm && next start",
     "analyze": "ANALYZE=true next build",
-    "export": "yarn wasm && next build && next export",
+    "export": "pnpm wasm && next build && next export",
     "wasm": "wasm-pack build --target web wasm",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13",
-    "react": "*",
-    "react-dom": "*"
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13",
-    "@types/node": "*",
-    "@types/react": "*",
-    "eslint": "*",
-    "eslint-config-next": "^13",
-    "eslint-config-prettier": "*",
-    "eslint-plugin-prettier": "*",
-    "next-compose-plugins": "*",
-    "prettier": "*",
-    "swc-loader": "*",
-    "typescript": "*"
-  },
-  "resolutions": {
-    "json5": ">=2.2.2"
+    "@next/bundle-analyzer": "^13.4.7",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.14",
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^13.4.7",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "next-compose-plugins": "^2.2.1",
+    "prettier": "^2.8.8",
+    "swc-loader": "^0.2.3",
+    "typescript": "^5.1.3"
   }
 }
