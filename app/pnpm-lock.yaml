@@ -45,7 +45,7 @@ devDependencies:
     version: 3.0.0
   swc-loader:
     specifier: ^0.2.3
-    version: 0.2.3(@swc/core@1.3.69)(webpack@5.88.1)
+    version: 0.2.3(@swc/core@1.3.69)(webpack@5.88.2)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -2690,14 +2690,14 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /swc-loader@0.2.3(@swc/core@1.3.69)(webpack@5.88.1):
+  /swc-loader@0.2.3(@swc/core@1.3.69)(webpack@5.88.2):
     resolution: {integrity: sha512-D1p6XXURfSPleZZA/Lipb3A8pZ17fP4NObZvFCDjK/OKljroqDpPmsBdTraWhVBqUNpcWBQY1imWdoPScRlQ7A==}
     peerDependencies:
       '@swc/core': ^1.2.147
       webpack: '>=2'
     dependencies:
       '@swc/core': 1.3.69
-      webpack: 5.88.1(@swc/core@1.3.69)
+      webpack: 5.88.2(@swc/core@1.3.69)
     dev: true
 
   /synckit@0.8.5:
@@ -2713,7 +2713,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin@5.3.9(@swc/core@1.3.69)(webpack@5.88.1):
+  /terser-webpack-plugin@5.3.9(@swc/core@1.3.69)(webpack@5.88.2):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -2735,7 +2735,7 @@ packages:
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.19.0
-      webpack: 5.88.1(@swc/core@1.3.69)
+      webpack: 5.88.2(@swc/core@1.3.69)
     dev: true
 
   /terser@5.19.0:
@@ -2914,8 +2914,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack@5.88.1(@swc/core@1.3.69):
-    resolution: {integrity: sha512-FROX3TxQnC/ox4N+3xQoWZzvGXSuscxR32rbzjpXgEzWudJFEJBpdlkkob2ylrv5yzzufD1zph1OoFsLtm6stQ==}
+  /webpack@5.88.2(@swc/core@1.3.69):
+    resolution: {integrity: sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2945,7 +2945,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.9(@swc/core@1.3.69)(webpack@5.88.1)
+      terser-webpack-plugin: 5.3.9(@swc/core@1.3.69)(webpack@5.88.2)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
