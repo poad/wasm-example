@@ -15,7 +15,7 @@ dependencies:
     specifier: ^10.2.69
     version: 10.2.69
   json5:
-    specifier: '>=2.2.2'
+    specifier: ^2.2.3
     version: 2.2.3
   source-map-support:
     specifier: ^0.5.21
