@@ -1,4 +1,3 @@
-const withPlugins = require('next-compose-plugins');
 const withBundleAnalyzer = require('@next/bundle-analyzer');
 
 /** @type {import('next').NextConfig} */
