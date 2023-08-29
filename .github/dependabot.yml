@@ -20,6 +20,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      cargo:
+        patterns:
+          - '*'
 
   - package-ecosystem: npm
     directory: '/app'
@@ -31,6 +35,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      nextjs:
+        patterns:
+          - '*'
 
   - package-ecosystem: npm
     directory: '/infra'
@@ -42,3 +50,7 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    cdk:
+      nextjs:
+        patterns:
+          - '*'
