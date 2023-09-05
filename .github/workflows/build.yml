@@ -26,7 +26,7 @@ jobs:
       run: rustup update
     - name: Install cross
       run: cargo install cross
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: configure aws credentials
       uses: aws-actions/configure-aws-credentials@v3
       with:
