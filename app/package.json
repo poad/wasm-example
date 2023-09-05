@@ -27,5 +27,12 @@
     "prettier": "^3.0.3",
     "swc-loader": "^0.2.3",
     "typescript": "^5.2.2"
+  },
+  "packageManager": "pnpm@8.7.1",
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=8.7.1",
+    "node": ">=18.0.0"
   }
 }
