@@ -34,8 +34,8 @@ jobs:
         role-session-name: GitHubActions
         aws-region: ${{ env.AWS_REGION }}
 
-    - uses: pnpm/action-setup@v2
-      name: Install pnpm
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2
       id: pnpm-install
       with:
         run_install: |

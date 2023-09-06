@@ -8,9 +8,16 @@
     "lint": "eslint --ext .ts lambda bin lib",
     "style-check": "prettier --write lambda bin lib",
     "format": "prettier --write lambda bin lib",
-    "fix": "prettier --write lambda bin lib && eslint --fix --ext .ts lambda bin lib"
+    "lint-fix": "prettier --write lambda bin lib && eslint --fix --ext .ts lambda bin lib"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
+  },
+  "packageManager": "pnpm@8.7.1",
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=8.7.1",
+    "node": ">=20.0.0"
   }
 }

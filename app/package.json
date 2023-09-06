@@ -7,7 +7,7 @@
     "build": "pnpm wasm && next build",
     "start": "pnpm wasm && next start",
     "analyze": "ANALYZE=true next build",
-    "export": "pnpm wasm && next build && next export",
+    "export": "pnpm wasm && next build",
     "wasm": "wasm-pack build --target web wasm",
     "lint": "next lint"
   },
@@ -33,6 +33,6 @@
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.1",
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   }
 }
