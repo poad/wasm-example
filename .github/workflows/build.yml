@@ -19,7 +19,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: 'ubuntu-20.04'
+    runs-on: 'ubuntu-latest'
 
     steps:
     - name: Update Rust toolchain
@@ -38,6 +38,7 @@ jobs:
       uses: pnpm/action-setup@v2
       id: pnpm-install
       with:
+        version: latest
         run_install: |
           - recursive: true
             args: [--no-frozen-lockfile]
