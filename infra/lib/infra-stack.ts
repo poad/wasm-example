@@ -37,6 +37,10 @@ export class InfraStack extends cdk.Stack {
         }),
       },
     );
+    (
+      websiteIndexPageForwardFunction.node
+        .defaultChild as cdk.aws_cloudfront.CfnFunction
+    ).addPropertyOverride('FunctionConfig.Runtime', 'cloudfront-js-2.0');
 
     const oac = new cloudfront.CfnOriginAccessControl(
       this,
