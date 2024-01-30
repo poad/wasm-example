@@ -24,8 +24,8 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0
       '@types/node':
-        specifier: ^20.11.10
-        version: 20.11.10
+        specifier: ^20.11.12
+        version: 20.11.12
       '@types/react':
         specifier: ^18.2.48
         version: 18.2.48
@@ -70,8 +70,8 @@ importers:
         specifier: ^0.5.3
         version: 0.5.3
       '@types/node':
-        specifier: ^20.11.10
-        version: 20.11.10
+        specifier: ^20.11.12
+        version: 20.11.12
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.20.0
         version: 6.20.0(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -107,7 +107,7 @@ importers:
         version: 0.14.1
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@swc/core@1.3.107)(@types/node@20.11.10)(typescript@5.3.3)
+        version: 10.9.2(@swc/core@1.3.107)(@types/node@20.11.12)(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -588,8 +588,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.11.10:
-    resolution: {integrity: sha512-rZEfe/hJSGYmdfX9tvcPMYeYPW2sNl50nsw4jZmRcaG0HIAb0WYEpsB05GOb53vjqpyE9GUhlDQ4jLSoB5q9kg==}
+  /@types/node@20.11.12:
+    resolution: {integrity: sha512-N/Az9BkJ6IWCJ3GeKea/vMQLfV37ci1fApx2x5UQvfa0N5OTjR/c17hEkt6Q0LSF6XSF7hcgrd/DOobibskPNw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1170,7 +1170,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001581
-      electron-to-chromium: 1.4.649
+      electron-to-chromium: 1.4.651
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.3)
     dev: true
@@ -1360,8 +1360,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.649:
-    resolution: {integrity: sha512-dq/owIaALxZGqWm5RXpKQ4baX6aDC19e2Z16c8SXYN+I71PyEKjbVqQUgm7kcuk8CRqljTKXbolo0XXDjxnh2w==}
+  /electron-to-chromium@1.4.651:
+    resolution: {integrity: sha512-jjks7Xx+4I7dslwsbaFocSwqBbGHQmuXBJUK9QBZTIrzPq3pzn6Uf2szFSP728FtLYE3ldiccmlkOM/zhGKCpA==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -2389,7 +2389,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.11.10
+      '@types/node': 20.11.12
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -3250,7 +3250,7 @@ packages:
       typescript: 5.3.3
     dev: true
 
-  /ts-node@10.9.2(@swc/core@1.3.107)(@types/node@20.11.10)(typescript@5.3.3):
+  /ts-node@10.9.2(@swc/core@1.3.107)(@types/node@20.11.12)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -3270,7 +3270,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.10
+      '@types/node': 20.11.12
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
