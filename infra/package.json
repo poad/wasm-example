@@ -17,8 +17,8 @@
     "@swc/core": "^1.4.2",
     "@swc/helpers": "^0.5.6",
     "@types/node": "^20.11.19",
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
     "aws-cdk": "^2.128.0",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -36,7 +36,6 @@
     "constructs": "^10.3.0",
     "source-map-support": "^0.5.21"
   },
-  "packageManager": "pnpm@8.7.1",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
