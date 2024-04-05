@@ -11,7 +11,7 @@
     "lint-fix": "prettier --write lambda bin lib && eslint --fix --ext .ts lambda bin lib"
   },
   "devDependencies": {
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "engines": {
     "npm": "use pnpm please!",
