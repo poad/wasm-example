@@ -9,7 +9,8 @@
     "analyze": "ANALYZE=true next build",
     "export": "pnpm wasm && next build",
     "wasm": "wasm-pack build --target web wasm",
-    "lint": "next lint"
+    "lint": "eslint",
+    "lint-fix": "eslint --fix"
   },
   "dependencies": {
     "next": "^14.1.4",
@@ -19,13 +20,7 @@
   "devDependencies": {
     "@next/bundle-analyzer": "^14.1.4",
     "@types/node": "^20.12.5",
-    "@types/react": "^18.2.74",
-    "eslint": "^9.0.0",
-    "eslint-config-next": "^14.1.4",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "prettier": "^3.2.5",
-    "swc-loader": "^0.2.6",
+    "@types/react": "^18.2.75",
     "typescript": "^5.4.4"
   },
   "engines": {

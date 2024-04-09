@@ -108,7 +108,7 @@ export class InfraStack extends cdk.Stack {
       'DistributionConfig.Origins.0.S3OriginConfig.OriginAccessIdentity',
       '',
     );
-    // eslint-disable-next-line no-new
+
     new s3deploy.BucketDeployment(this, 'DeployWebsite', {
       sources: [s3deploy.Source.asset(`${process.cwd()}/../app/out`)],
       destinationBucket: s3bucket,
@@ -119,7 +119,7 @@ export class InfraStack extends cdk.Stack {
         '_next/static/wasm/webassembly.wasm',
       ],
     });
-    // eslint-disable-next-line no-new
+
     new s3deploy.BucketDeployment(this, 'DeployWebsiteWasm', {
       sources: [
         s3deploy.Source.asset(`${process.cwd()}/../app/out/_next/static/wasm/`),
