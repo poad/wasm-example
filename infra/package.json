@@ -14,16 +14,16 @@
     "lint-fix": "prettier --write function bin lib && eslint --fix './{bin,lib,function}/**/*.ts'"
   },
   "devDependencies": {
-    "@swc/core": "^1.4.15",
+    "@swc/core": "^1.4.16",
     "@swc/helpers": "^0.5.10",
     "@types/node": "^20.12.7",
-    "aws-cdk": "^2.137.0",
+    "aws-cdk": "^2.138.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.137.0",
+    "aws-cdk-lib": "^2.138.0",
     "constructs": "^10.3.0",
     "source-map-support": "^0.5.21"
   },
