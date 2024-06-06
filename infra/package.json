@@ -16,7 +16,7 @@
   "devDependencies": {
     "@swc/core": "^1.5.25",
     "@swc/helpers": "^0.5.11",
-    "@types/node": "^20.14.1",
+    "@types/node": "^20.14.2",
     "aws-cdk": "^2.144.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
