@@ -14,9 +14,9 @@
     "lint-fix": "prettier --write function bin lib && eslint --fix './{bin,lib,function}/**/*.ts'"
   },
   "devDependencies": {
-    "@swc/core": "^1.6.13",
+    "@swc/core": "^1.7.0",
     "@swc/helpers": "^0.5.12",
-    "@types/node": "^20.14.10",
+    "@types/node": "^20.14.11",
     "aws-cdk": "^2.149.0",
     "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
