@@ -17,7 +17,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "aws-cdk": "^2.151.0",
+    "aws-cdk": "^2.152.0",
     "eslint": "^9.9.0",
     "eslint-config-next": "^14.2.5",
     "eslint-config-prettier": "^9.1.0",
@@ -26,5 +26,5 @@
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.3.3"
   },
-  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
 }
