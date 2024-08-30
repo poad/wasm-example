@@ -13,14 +13,14 @@
     "lint-fix": "eslint --fix"
   },
   "dependencies": {
-    "next": "^14.2.6",
+    "next": "^14.2.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.2.6",
-    "@types/node": "^22.5.0",
-    "@types/react": "^18.3.4",
+    "@next/bundle-analyzer": "^14.2.7",
+    "@types/node": "^22.5.1",
+    "@types/react": "^18.3.5",
     "typescript": "^5.5.4"
   },
   "engines": {
