@@ -22,6 +22,7 @@ export default tseslint.config(
       '.next/*',
       'out',
       '.storybook',
+      'wasm',
     ],
   },
   eslint.configs.recommended,
