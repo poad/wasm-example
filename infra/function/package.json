@@ -6,9 +6,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "eslint './**/*.ts'",
-    "style-check": "prettier --write .",
-    "format": "prettier --write .",
-    "lint-fix": "prettier --write . && eslint --fix './**/*.ts'"
+    "lint-fix": "eslint --fix './**/*.ts'"
   },
   "devDependencies": {
     "typescript": "^5.5.4"

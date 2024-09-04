@@ -9,16 +9,11 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "lint": "eslint './{bin,lib,function}/**/*.ts'",
-    "style-check": "prettier --write function bin lib",
-    "format": "prettier --write function bin lib",
-    "lint-fix": "prettier --write function bin lib && eslint --fix './{bin,lib,function}/**/*.ts'"
+    "lint-fix": "eslint --fix './{bin,lib,function}/**/*.ts'"
   },
   "devDependencies": {
-    "@swc/core": "^1.7.22",
-    "@swc/helpers": "^0.5.12",
-    "@types/node": "^22.5.1",
+    "@types/node": "^22.5.3",
     "aws-cdk": "^2.155.0",
-    "regenerator-runtime": "^0.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },

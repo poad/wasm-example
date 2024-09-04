@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import type { NextPage } from 'next'
-import { sums } from "../../wasm/pkg/wasm_bg.wasm";
+import React, { useState } from 'react';
+import type { NextPage } from 'next';
+import { sums } from '../../wasm/pkg/wasm_bg.wasm';
 
 const Home: NextPage = () => {
 
@@ -11,12 +11,13 @@ const Home: NextPage = () => {
       <input
         onChange={(e) => {
           const v = Number(e.target.value);
+          // eslint-disable-next-line @typescript-eslint/no-unused-expressions
           !isNaN(v) && setValue(sums(v));
         }}
       />
       <div>{value}</div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
