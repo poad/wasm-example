@@ -2,6 +2,7 @@ import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
+import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as s3deploy from 'aws-cdk-lib/aws-s3-deployment';
 import * as iam from 'aws-cdk-lib/aws-iam';
 
@@ -42,46 +43,32 @@ export class InfraStack extends cdk.Stack {
         .defaultChild as cdk.aws_cloudfront.CfnFunction
     ).addPropertyOverride('FunctionConfig.Runtime', 'cloudfront-js-2.0');
 
-    const oac = new cloudfront.CfnOriginAccessControl(
+    const originAccessControl = new cloudfront.S3OriginAccessControl(
       this,
       'OriginAccessControl',
       {
-        originAccessControlConfig: {
-          name: `${props.name}-static-site-oac`,
-          originAccessControlOriginType: 's3',
-          signingBehavior: 'no-override',
-          signingProtocol: 'sigv4',
-        },
+        originAccessControlName: `${props.name}-static-site-oac`,
+        signing: cloudfront.Signing.SIGV4_NO_OVERRIDE,
       },
     );
 
-    const cf = new cloudfront.CloudFrontWebDistribution(this, 'CloudFront', {
+    const cf = new cloudfront.Distribution(this, 'CloudFront', {
       comment: `for ${props.name}-static-site`,
-      originConfigs: [
-        {
-          s3OriginSource: {
-            s3BucketSource: s3bucket,
+      defaultBehavior: {
+        origin: origins.S3BucketOrigin.withOriginAccessControl(s3bucket, {
+          originAccessControl,
+        }),
+        compress: true,
+        functionAssociations: [
+          {
+            eventType: cloudfront.FunctionEventType.VIEWER_REQUEST,
+            function: websiteIndexPageForwardFunction,
           },
-          behaviors: [
-            {
-              isDefaultBehavior: true,
-              compress: true,
-              functionAssociations: [
-                {
-                  eventType: cloudfront.FunctionEventType.VIEWER_REQUEST,
-                  function: websiteIndexPageForwardFunction,
-                },
-              ],
-              cachedMethods: cloudfront.CloudFrontAllowedCachedMethods.GET_HEAD,
-              viewerProtocolPolicy:
-                cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
-              minTtl: cdk.Duration.seconds(0),
-              maxTtl: cdk.Duration.seconds(86400),
-              defaultTtl: cdk.Duration.seconds(3600),
-            },
-          ],
-        },
-      ],
+        ],
+        cachedMethods: cloudfront.CachedMethods.CACHE_GET_HEAD,
+        viewerProtocolPolicy:
+          cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
+      },
       httpVersion: cloudfront.HttpVersion.HTTP2_AND_3,
     });
     s3bucket.addToResourcePolicy(
@@ -97,16 +84,6 @@ export class InfraStack extends cdk.Stack {
           },
         },
       }),
-    );
-
-    const cfnDistribution = cf.node.defaultChild as cloudfront.CfnDistribution;
-    cfnDistribution.addPropertyOverride(
-      'DistributionConfig.Origins.0.OriginAccessControlId',
-      oac.getAtt('Id'),
-    );
-    cfnDistribution.addPropertyOverride(
-      'DistributionConfig.Origins.0.S3OriginConfig.OriginAccessIdentity',
-      '',
     );
 
     new s3deploy.BucketDeployment(this, 'DeployWebsite', {
