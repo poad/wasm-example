@@ -6,9 +6,6 @@ import stylistic from '@stylistic/eslint-plugin';
 import stylisticTs from '@stylistic/eslint-plugin-ts';
 
 import tseslint from 'typescript-eslint';
-import { FlatCompat } from '@eslint/eslintrc';
-
-const compat = new FlatCompat();
 
 export default tseslint.config(
   {
