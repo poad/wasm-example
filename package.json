@@ -22,7 +22,7 @@
     "@stylistic/eslint-plugin-ts": "^2.8.0",
     "aws-cdk": "^2.158.0",
     "eslint": "^9.10.0",
-    "eslint-config-next": "^14.2.10",
+    "eslint-config-next": "^14.2.11",
     "eslint-plugin-import": "^2.30.0",
     "typescript-eslint": "^8.5.0"
   },
