@@ -15,16 +15,16 @@
     "node": ">=20.0.0"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.9.0",
-    "@stylistic/eslint-plugin-js": "^2.9.0",
-    "@stylistic/eslint-plugin-jsx": "^2.9.0",
-    "@stylistic/eslint-plugin-plus": "^2.9.0",
-    "@stylistic/eslint-plugin-ts": "^2.9.0",
-    "aws-cdk": "^2.162.1",
-    "eslint": "^9.13.0",
-    "eslint-config-next": "^14.2.15",
+    "@stylistic/eslint-plugin": "^2.10.1",
+    "@stylistic/eslint-plugin-js": "^2.10.1",
+    "@stylistic/eslint-plugin-jsx": "^2.10.1",
+    "@stylistic/eslint-plugin-plus": "^2.10.1",
+    "@stylistic/eslint-plugin-ts": "^2.10.1",
+    "aws-cdk": "^2.165.0",
+    "eslint": "^9.14.0",
+    "eslint-config-next": "^14.2.16",
     "eslint-plugin-import": "^2.31.0",
-    "typescript-eslint": "^8.10.0"
+    "typescript-eslint": "^8.13.0"
   },
-  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
