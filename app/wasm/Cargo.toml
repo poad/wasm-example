@@ -8,3 +8,9 @@ crate-type = ["cdylib"]
 
 [dependencies]
 wasm-bindgen = "^0.2.95"
+
+[profile.release]
+strip = true
+
+[profile.dev]
+strip = true
