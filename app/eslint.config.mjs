@@ -25,7 +25,7 @@ export default tseslint.config(
       '.storybook',
       'wasm',
     ],
-    files: ['src/**/*.{jsx,tsx}'],
+    files: ['src/**/*.{ts,tsx}'],
     plugins: {
       '@next/next': nextPlugin,
       '@stylistic': stylistic,
