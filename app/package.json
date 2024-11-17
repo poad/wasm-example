@@ -9,8 +9,8 @@
     "analyze": "ANALYZE=true next build",
     "export": "pnpm wasm && next build",
     "wasm": "wasm-pack build --target web wasm",
-    "lint": "eslint",
-    "lint-fix": "eslint --fix"
+    "lint": "eslint -c eslint.config.mjs",
+    "lint-fix": "eslint --fix -c eslint.config.mjs"
   },
   "dependencies": {
     "next": "^15.0.3",
