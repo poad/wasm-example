@@ -59,8 +59,6 @@ export default tseslint.config(
       'arrow-parens': ['error', 'always'],
       semi: ['error', 'always'],
       quotes: ['error', 'single'],
-      '@typescript-eslint/no-unused-expressions': 'off',
-      '@typescript-eslint/no-empty-function': 'off',
     },
   },
 );
