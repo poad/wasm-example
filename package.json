@@ -15,11 +15,11 @@
     "node": ">=20.0.0"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.10.1",
-    "@stylistic/eslint-plugin-js": "^2.10.1",
-    "@stylistic/eslint-plugin-jsx": "^2.10.1",
-    "@stylistic/eslint-plugin-plus": "^2.10.1",
-    "@stylistic/eslint-plugin-ts": "^2.10.1",
+    "@stylistic/eslint-plugin": "^2.11.0",
+    "@stylistic/eslint-plugin-js": "^2.11.0",
+    "@stylistic/eslint-plugin-jsx": "^2.11.0",
+    "@stylistic/eslint-plugin-plus": "^2.11.0",
+    "@stylistic/eslint-plugin-ts": "^2.11.0",
     "aws-cdk": "^2.167.1",
     "eslint": "^9.15.0",
     "eslint-config-next": "^15.0.3",
