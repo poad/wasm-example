@@ -20,7 +20,7 @@
     "@stylistic/eslint-plugin-jsx": "^2.11.0",
     "@stylistic/eslint-plugin-plus": "^2.11.0",
     "@stylistic/eslint-plugin-ts": "^2.11.0",
-    "aws-cdk": "^2.168.0",
+    "aws-cdk": "^2.169.0",
     "eslint": "^9.15.0",
     "eslint-config-next": "^15.0.3",
     "eslint-plugin-import": "^2.31.0",
