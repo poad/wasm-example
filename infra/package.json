@@ -12,7 +12,7 @@
     "lint-fix": "eslint --fix './{bin,lib,function}/**/*.ts'"
   },
   "devDependencies": {
-    "@types/node": "^22.9.2",
+    "@types/node": "^22.9.3",
     "aws-cdk": "^2.170.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
