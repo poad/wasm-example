@@ -7,7 +7,7 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "^0.2.97"
+wasm-bindgen = "^0.2.99"
 
 [profile.release]
 strip = true
