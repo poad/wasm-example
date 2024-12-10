@@ -36,7 +36,7 @@ importers:
         specifier: ^2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.18.0(eslint@9.16.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@9.16.0)
       typescript-eslint:
-        specifier: ^8.18.0
+        specifier: ^8.17.0
         version: 8.18.0(eslint@9.16.0)(typescript@5.7.2)
 
   app:
