@@ -26,7 +26,10 @@ updates:
           - '*'
 
   - package-ecosystem: npm
-    directory: '/app'
+    directories:
+      - '/'
+      - '/app'
+      - '/infra'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
@@ -36,21 +39,6 @@ updates:
     assignees:
       - poad
     groups:
-      nextjs:
-        patterns:
-          - '*'
-
-  - package-ecosystem: npm
-    directory: '/infra'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      cdk:
+      npm:
         patterns:
           - '*'
