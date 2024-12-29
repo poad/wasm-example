@@ -1,10 +1,10 @@
+import { NextConfig } from "next";
+
 const withBundleAnalyzer = require('@next/bundle-analyzer');
 
-/** @type {import('next').NextConfig} */
-const config = {
+const config: NextConfig = {
   output: "export",
   reactStrictMode: true,
-  swcMinify: true,
   experimental: {
     esmExternals: true,
   },

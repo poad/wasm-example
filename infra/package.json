@@ -1,6 +1,7 @@
 {
   "name": "infra",
   "version": "0.1.0",
+  "type": "module",
   "bin": {
     "infra": "bin/infra.js"
   },

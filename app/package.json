@@ -1,6 +1,7 @@
 {
   "name": "wasm-example",
   "private": true,
+  "type": "module",
   "scripts": {
     "preinstall": "cargo install wasm-pack",
     "dev": "pnpm wasm && next dev",
@@ -9,8 +10,8 @@
     "analyze": "ANALYZE=true next build",
     "export": "pnpm wasm && next build",
     "wasm": "wasm-pack build --target web wasm",
-    "lint": "eslint -c eslint.config.mjs 'src/**/*.{ts,tsx}'",
-    "lint-fix": "eslint --fix -c eslint.config.mjs 'src/**/*.{ts,tsx}'"
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint-fix": "eslint --fix 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "next": "^15.1.3",
