@@ -14,12 +14,12 @@
     "lint-fix": "eslint --fix 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
-    "next": "^15.1.3",
+    "next": "^15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^15.1.3",
+    "@next/bundle-analyzer": "^15.1.4",
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.3",
     "typescript": "^5.7.2"
