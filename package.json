@@ -15,16 +15,16 @@
     "node": ">=20.0.0"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.12.1",
-    "@stylistic/eslint-plugin-js": "^2.12.1",
-    "@stylistic/eslint-plugin-jsx": "^2.12.1",
-    "@stylistic/eslint-plugin-plus": "^2.12.1",
-    "@stylistic/eslint-plugin-ts": "^2.12.1",
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "@stylistic/eslint-plugin-js": "^2.13.0",
+    "@stylistic/eslint-plugin-jsx": "^2.13.0",
+    "@stylistic/eslint-plugin-plus": "^2.13.0",
+    "@stylistic/eslint-plugin-ts": "^2.13.0",
     "aws-cdk": "^2.175.1",
     "eslint": "^9.18.0",
     "eslint-config-next": "^15.1.4",
     "eslint-plugin-import": "^2.31.0",
-    "typescript-eslint": "^8.19.1"
+    "typescript-eslint": "^8.20.0"
   },
   "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321"
 }
