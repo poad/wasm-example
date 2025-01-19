@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^15.1.5",
+    "@next/eslint-plugin-next": "^15.1.5",
     "@types/node": "^22.10.7",
     "@types/react": "^19.0.7",
     "typescript": "^5.7.3"
