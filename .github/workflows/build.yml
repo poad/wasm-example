@@ -51,7 +51,7 @@ jobs:
 
     - name: Build (infra)
       working-directory: infra
-      run: bun run --bun lint && bun run --bun build
+      run: bun run lint && bun run --bun build
 
     - name: Build (app)
       working-directory: app
