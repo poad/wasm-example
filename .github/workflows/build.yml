@@ -47,12 +47,5 @@ jobs:
           - recursive: true
             args: [--no-frozen-lockfile]
 
-    - uses: oven-sh/setup-bun@v2
-
-    - name: Build (infra)
-      working-directory: infra
-      run: bun run lint && bun run --bun build
-
-    - name: Build (app)
-      working-directory: app
-      run: bun run lint && bun run build
+    - name: Build
+      run: pnpm lint && pnpm build
