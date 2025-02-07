@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.19.0",
+    "@eslint/js": "^9.20.0",
     "@next/eslint-plugin-next": "^15.1.6",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^3.0.1",
@@ -24,7 +24,7 @@
     "@stylistic/eslint-plugin-plus": "^3.0.1",
     "@stylistic/eslint-plugin-ts": "^3.0.1",
     "aws-cdk": "^2.178.1",
-    "eslint": "^9.19.0",
+    "eslint": "^9.20.0",
     "eslint-config-next": "^15.1.6",
     "eslint-plugin-import": "^2.31.0",
     "pnpm": "^10.2.1",
