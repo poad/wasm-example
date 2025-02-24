@@ -15,8 +15,8 @@
     "node": ">=20.0.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.20.0",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
     "@next/eslint-plugin-next": "^15.1.7",
     "@stylistic/eslint-plugin": "^4.0.1",
     "@stylistic/eslint-plugin-js": "^4.0.1",
@@ -24,7 +24,7 @@
     "@stylistic/eslint-plugin-plus": "^4.0.1",
     "@stylistic/eslint-plugin-ts": "^4.0.1",
     "aws-cdk": "^2.1000.2",
-    "eslint": "^9.20.1",
+    "eslint": "^9.21.0",
     "eslint-config-next": "^15.1.7",
     "eslint-plugin-import": "^2.31.0",
     "pnpm": "^10.4.1",
