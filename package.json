@@ -27,7 +27,7 @@
     "eslint": "^9.21.0",
     "eslint-config-next": "^15.2.0",
     "eslint-plugin-import": "^2.31.0",
-    "pnpm": "^10.5.1",
+    "pnpm": "^10.5.2",
     "typescript-eslint": "^8.25.0"
   },
   "packageManager": "pnpm@10.5.0+sha512.11106a5916c7406fe4b8cb8e3067974b8728f47308a4f5ac5e850304afa6f57e2847d7950dfe78877d8d36bfb401d381c4215db3a4c3547ffa63c14333a6fa51"
