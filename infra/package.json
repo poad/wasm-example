@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
-    "@eslint/js": "^9.21.0",
+    "@eslint/js": "^9.22.0",
     "@types/node": "^22.13.9",
     "aws-cdk": "^2.1003.0",
     "ts-node": "^10.9.2",
