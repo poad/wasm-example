@@ -13,8 +13,8 @@
     "lint-fix": "eslint --fix './{bin,lib,function}/**/*.ts'"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.0",
-    "@eslint/js": "^9.22.0",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.23.0",
     "@types/node": "^22.13.11",
     "aws-cdk": "^2.1005.0",
     "ts-node": "^10.9.2",
