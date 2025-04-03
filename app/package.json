@@ -21,8 +21,8 @@
   "devDependencies": {
     "@next/bundle-analyzer": "^15.2.4",
     "@next/eslint-plugin-next": "^15.2.4",
-    "@types/node": "^22.13.17",
-    "@types/react": "^19.0.12",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
     "typescript": "^5.8.2"
   },
   "engines": {
