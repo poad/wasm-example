@@ -16,7 +16,7 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.24.0",
     "@types/node": "^22.14.1",
-    "aws-cdk": "^2.1007.0",
+    "aws-cdk": "^2.1010.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
